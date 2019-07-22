@@ -1,7 +1,7 @@
 # tinyLM
-A tiny implementation of a Levenberg-Marquardt non-linear least-squares solver.
+A tiny C++17 implementation of a Levenberg-Marquardt non-linear least-squares solver.
 
-Based n the eigen 
+Based on the Eigen matrix/numerical library for c++.
 
 ## Install
 
@@ -19,6 +19,8 @@ I would suggest making yourself a single-file wrapper any incorporate as an invi
   }
   // end-of-file
   ```
+
+You should have Eigen available before including the tinyLM header.
 
 It is really as easy as that!
 
